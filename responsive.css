@@ -1,0 +1,78 @@
+@media screen and (max-width:900px) {
+    .footer-portion{
+        flex-direction: column;
+    }
+    .footer-list{
+        width: 100%;
+    }
+    .footer-list img{
+        height: 10vh;
+        width: 20vw;
+    }
+}
+@media screen and (max-width:800px) {
+    .nav-bar{
+        display: none;
+    }
+    .fa-bars{
+        font-size: 2rem;
+        display: block;
+        color: red;
+    }
+    .fa-bars:hover{
+        cursor: pointer;
+        text-shadow: 0px 0px 5px  darkred;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 5vw;
+    }
+    .article-portion-box img{
+        height: 35vh;
+    }
+    .our-services-portion{
+        flex-direction: column;
+    }
+    .our-services-text{
+        width: 70vw;
+    }
+    .testimonials-portion{
+        flex-direction: column;
+    }
+    .testimonials-box{
+        width: 85vw;
+    }
+    .footer-portion{
+        flex-direction: column;
+    }
+    .flickr{
+        height: 15vh;
+    }
+}
+
+@media screen and (max-width:740px) {
+    .article-portion-box img{
+        height: 30vh;
+    }    
+    .portfolio{
+        flex-direction: column;
+    }
+    .portfolio-box{
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width:550px) {
+    .main-head{
+        font-size: 1rem;
+    }
+    nav img{
+        height: 2.0rem;
+    }
+    .fa-bars{
+        font-size: 1.5rem;
+    }
+    .portfolio-box{
+        font-size: 2rem;
+    }
+}
